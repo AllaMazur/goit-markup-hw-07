@@ -1,11 +1,9 @@
 .clients-list {
-    display: flex;
-    align-items: center;
+ @include position();
     justify-content: center;
   }
   .clients-list__link {
-    display: flex;
-    align-items: center;
+    @include position();
     justify-content: center;
     width: 170px;
     height: 92px;
